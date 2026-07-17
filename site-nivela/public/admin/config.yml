@@ -1,0 +1,102 @@
+backend:
+  name: github
+  repo: Adm-Nivela/SITE-NIVELA
+  branch: main
+  base_url: https://nivela.eng.br
+  auth_endpoint: api/cms/auth
+  use_graphql: true
+
+publish_mode: editorial_workflow
+media_folder: site-nivela/public/uploads
+public_folder: /uploads
+site_url: https://nivela.eng.br
+display_url: https://nivela.eng.br
+
+collections:
+  - name: posts
+    label: Posts
+    label_singular: Post
+    folder: site-nivela/content/posts
+    create: true
+    slug: "{{slug}}"
+    preview_path: blog/{{slug}}
+    fields:
+      - { label: Título, name: title, widget: string, required: true }
+      - {
+          label: Slug,
+          name: slug,
+          widget: string,
+          required: true,
+          hint: "Use apenas letras minúsculas, números e hífens. Sem espaços, acentos ou caracteres especiais. Ex: tema-principal-do-artigo",
+          pattern: ["^(?=.{1,80}$)[a-z0-9]+(?:-[a-z0-9]+)*$", "Slug inválido"]
+        }
+      - { label: Data, name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, required: true }
+      - { label: Categoria, name: category, widget: relation, collection: categories, search_fields: [name], value_field: slug, display_fields: [name], required: true }
+      - { label: Descrição, name: description, widget: text, required: true }
+      - { label: Imagem de capa, name: coverImage, widget: image, required: false }
+      - { label: Rascunho, name: draft, widget: boolean, default: false, required: false }
+      - { label: Conteúdo, name: body, widget: markdown, required: true }
+
+  - name: categories
+    label: Categorias
+    label_singular: Categoria
+    folder: site-nivela/content/categories
+    create: true
+    identifier_field: name
+    fields:
+      - { label: Nome, name: name, widget: string, required: true }
+      - {
+          label: Slug,
+          name: slug,
+          widget: string,
+          required: true,
+          hint: "Use apenas letras minúsculas, números e hífens. Sem espaços, acentos ou caracteres especiais. Ex: tema-principal-do-artigo",
+          pattern: ["^(?=.{1,80}$)[a-z0-9]+(?:-[a-z0-9]+)*$", "Slug inválido"]
+        }
+      - { label: Descrição, name: description, widget: text, required: false }
+
+  - name: pages
+    label: Páginas
+    files:
+      - name: sobre
+        label: Sobre
+        file: site-nivela/content/pages/sobre.md
+        fields:
+          - { label: Título, name: title, widget: string }
+          - {
+              label: Slug,
+              name: slug,
+              widget: string,
+              hint: "Use apenas letras minúsculas, números e hífens. Sem espaços, acentos ou caracteres especiais. Ex: tema-principal-do-artigo",
+              pattern: ["^(?=.{1,80}$)[a-z0-9]+(?:-[a-z0-9]+)*$", "Slug inválido"]
+            }
+          - { label: Descrição, name: description, widget: text, required: false }
+          - { label: Conteúdo, name: body, widget: markdown }
+      - name: servicos
+        label: Serviços
+        file: site-nivela/content/pages/servicos.md
+        fields:
+          - { label: Título, name: title, widget: string }
+          - {
+              label: Slug,
+              name: slug,
+              widget: string,
+              hint: "Use apenas letras minúsculas, números e hífens. Sem espaços, acentos ou caracteres especiais. Ex: tema-principal-do-artigo",
+              pattern: ["^(?=.{1,80}$)[a-z0-9]+(?:-[a-z0-9]+)*$", "Slug inválido"]
+            }
+          - { label: Descrição, name: description, widget: text, required: false }
+          - { label: Conteúdo, name: body, widget: markdown }
+      - name: avaliacao-tecnica
+        label: Avaliação técnica
+        file: site-nivela/content/pages/avaliacao-tecnica.md
+        fields:
+          - { label: Título, name: title, widget: string }
+          - {
+              label: Slug,
+              name: slug,
+              widget: string,
+              hint: "Use apenas letras minúsculas, números e hífens. Sem espaços, acentos ou caracteres especiais. Ex: tema-principal-do-artigo",
+              pattern: ["^(?=.{1,80}$)[a-z0-9]+(?:-[a-z0-9]+)*$", "Slug inválido"]
+            }
+          - { label: Descrição, name: description, widget: text, required: false }
+          - { label: Conteúdo, name: body, widget: markdown }

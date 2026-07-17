@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --petrol: #0f3c57;
+  --petrol-light: #164e70;
+  --green-gray: #2f4f4f;
+  --gold: #cbb354;
+  --offwhite: #f4f5f6;
+  --white: #ffffff;
+  --text-dark: #0f3c57;
+  --text-mid: #2f4f4f;
+  --text-muted: #6b7280;
+  --border: rgba(15, 60, 87, 0.12);
+  --label-font-size: 0.95rem;
+  --label-letter-spacing: 0.2em;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--offwhite);
+  color: var(--text-dark);
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+}
+
+.site-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--offwhite);
+}
+
+.section {
+  padding: 5rem 3rem;
+}
+
+.section-label {
+  display: block;
+  margin-bottom: 1rem;
+  color: var(--gold);
+  font-size: var(--label-font-size);
+  font-weight: 600;
+  letter-spacing: var(--label-letter-spacing);
+  text-transform: uppercase;
+}
+
+.section-title {
+  margin-bottom: 1rem;
+  color: var(--petrol);
+  font-family: "Lora", serif;
+  font-size: 2.35rem;
+  line-height: 1.25;
+}
+
+.section-sub {
+  max-width: 560px;
+  margin-bottom: 3rem;
+  color: var(--text-muted);
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.btn-gold {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  border: 0;
+  background: linear-gradient(135deg, #d8c467, var(--gold));
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  color: var(--petrol);
+  padding: 0.85rem 2rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transform: translateY(0);
+  transition:
+    background 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.btn-outline {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--white);
+  padding: 0.85rem 2rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transform: translateY(0);
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.btn-whatsapp,
+.cta-sm,
+.nav-cta,
+.form-submit {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  transform: translateY(0);
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.btn-gold::after,
+.btn-outline::after,
+.btn-whatsapp::after,
+.cta-sm::after,
+.nav-cta::after,
+.form-submit::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(120deg, transparent 0%, rgba(255, 255, 255, 0.24) 50%, transparent 100%);
+  transform: translateX(-120%);
+  transition: transform 0.45s ease;
+}
+
+.btn-gold:hover,
+.btn-outline:hover,
+.btn-whatsapp:hover,
+.cta-sm:hover,
+.nav-cta:hover,
+.form-submit:hover {
+  transform: translateY(-2px);
+}
+
+.btn-gold:hover {
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.18);
+  background: linear-gradient(135deg, #e0cf78, #cbb354);
+}
+
+.btn-outline:hover {
+  border-color: rgba(255, 255, 255, 0.62);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.16);
+}
+
+.btn-whatsapp:hover {
+  background: #2fdf73;
+  box-shadow: 0 14px 30px rgba(37, 211, 102, 0.24);
+}
+
+.cta-sm:hover {
+  background: var(--petrol-light);
+  box-shadow: 0 14px 30px rgba(15, 60, 87, 0.18);
+}
+
+.nav-cta:hover {
+  background: linear-gradient(135deg, #e0cf78, #cbb354);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.18);
+}
+
+.form-submit:hover {
+  background: var(--petrol-light);
+  box-shadow: 0 14px 30px rgba(15, 60, 87, 0.18);
+}
+
+.btn-gold:hover::after,
+.btn-outline:hover::after,
+.btn-whatsapp:hover::after,
+.cta-sm:hover::after,
+.nav-cta:hover::after,
+.form-submit:hover::after {
+  transform: translateX(120%);
+}
+
+.btn-gold:active,
+.btn-outline:active,
+.btn-whatsapp:active,
+.cta-sm:active,
+.nav-cta:active,
+.form-submit:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.16);
+}
+
+.btn-gold,
+.btn-outline,
+.btn-whatsapp,
+.cta-sm,
+.nav-cta,
+.form-submit {
+  min-height: 44px;
+}
+
+:focus-visible {
+  outline: 3px solid rgba(203, 179, 84, 0.75);
+  outline-offset: 3px;
+}
+
+@media (max-width: 640px) {
+  :root {
+    --label-font-size: 0.82rem;
+    --label-letter-spacing: 0.16em;
+  }
+
+  .section-label {
+    font-size: var(--label-font-size);
+    letter-spacing: var(--label-letter-spacing);
+  }
+
+  .section-title {
+    font-size: 1.95rem;
+  }
+
+  .btn-gold,
+  .btn-outline,
+  .btn-whatsapp,
+  .cta-sm {
+    padding-inline: 1rem;
+    text-align: center;
+  }
+}

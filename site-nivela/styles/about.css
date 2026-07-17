@@ -1,0 +1,134 @@
+.sobre-hero {
+  background: var(--petrol);
+  padding: 5rem 3rem;
+}
+
+.sobre-hero .section-label {
+  color: var(--gold);
+}
+
+.sobre-hero h1 {
+  margin-bottom: 1rem;
+  color: var(--white);
+  font-family: "Lora", serif;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.sobre-hero p {
+  max-width: 540px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.12rem;
+  line-height: 1.7;
+}
+
+.about-section,
+.method-section {
+  background: var(--offwhite);
+}
+
+.mvv-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.mvv-card {
+  border: 1px solid var(--border);
+  background: var(--white);
+  padding: 2rem;
+}
+
+.mvv-card h2 {
+  margin-bottom: 0.8rem;
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 0.8rem;
+  color: var(--petrol);
+  font-family: "Lora", serif;
+  font-size: 1.1rem;
+}
+
+.mvv-card p {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  line-height: 1.7;
+}
+
+.steps {
+  margin-top: 2rem;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.step:last-child {
+  margin-bottom: 0;
+}
+
+.step-num {
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
+  background: var(--petrol);
+  color: var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lora", serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.step-body h3 {
+  margin-bottom: 0.4rem;
+  color: var(--petrol);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.step-body p {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .sobre-hero {
+    padding: 4rem 2rem;
+  }
+
+  .sobre-hero h1 {
+    font-size: 2.35rem;
+  }
+
+  .mvv-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .sobre-hero {
+    padding: 3rem 1.25rem;
+  }
+
+  .sobre-hero h1 {
+    font-size: 2.05rem;
+  }
+
+  .sobre-hero h1 br {
+    display: none;
+  }
+
+  .mvv-card {
+    padding: 1.5rem;
+  }
+
+  .step {
+    gap: 1rem;
+  }
+}
