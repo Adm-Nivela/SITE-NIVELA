@@ -13,7 +13,7 @@ description: Na Nivela, unimos tecnologia, precisão e experiência para conecta
 
 A Nivela conecta a realidade física do terreno à segurança jurídica do patrimônio. Unimos experiência prática, tecnologia e inteligência geográfica para entregar soluções confiáveis em topografia, georreferenciamento, regularização territorial e assistência técnica especializada.
 
----
+- - -
 
 ## Nossa História
 
@@ -23,13 +23,13 @@ Mais do que executar levantamentos, atuamos como parceiros na geração de infor
 
 ## O Que Nos Diferencia
 
-- ✅ Precisão técnica com foco em resultados.
-- ✅ Interpretação analítica de dados geoespaciais.
-- ✅ Conformidade com normas e legislações vigentes.
-- ✅ Mitigação de riscos técnicos, jurídicos e financeiros.
-- ✅ Processos documentados, auditáveis e rastreáveis.
+*  Precisão técnica com foco em resultados.
+*  Interpretação analítica de dados geoespaciais.
+*  Conformidade com normas e legislações vigentes.
+*  Mitigação de riscos técnicos, jurídicos e financeiros.
+*  Processos documentados, auditáveis e rastreáveis.
 
----
+- - -
 
 ## Equipe Multidisciplinar
 
@@ -42,35 +42,3 @@ Acreditamos que problemas complexos exigem diferentes perspectivas. Por isso, pr
 Valorizamos ambientes inclusivos e acreditamos que a diversidade fortalece a inovação e a qualidade das soluções que entregamos.
 
 Incentivamos a igualdade de oportunidades e o desenvolvimento de lideranças técnicas, respeitando e valorizando cada profissional que faz parte da nossa trajetória.
-
----
-
-## Missão
-
-Entregar serviços com precisão, responsabilidade e transparência para proteger, regularizar e valorizar patrimônios.
-
-## Visão
-
-Ser referência nacional em soluções de agrimensura, geotecnologias e inteligência territorial, reconhecida pela excelência técnica e confiança.
-
----
-
-# Nossos Valores
-
-### Honestidade
-Transparência e ética em cada decisão.
-
-### Confiança
-Relacionamentos sólidos construídos pelo diálogo aberto.
-
-### Respeito à Dignidade Humana
-Valorização das pessoas acima de cargos e contratos.
-
-### Dedicação e Raça
-Compromisso para superar desafios e gerar resultados consistentes.
-
-### Excelência Técnica
-Busca contínua pela qualidade em cada entrega.
-
-### Orgulho de Pertencer
-Construímos juntos a história e o futuro da Nivela.
