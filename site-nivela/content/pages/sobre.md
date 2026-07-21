@@ -7,4 +7,70 @@ description: Na Nivela, unimos tecnologia, precisão e experiência para conecta
   clientes a tomar decisões com confiança, reduzir riscos e valorizar seus
   ativos.
 ---
-<section class="about-section">  <div class="container">    <div class="hero-about">      <span class="tag">Sobre a Nivela</span>      <h1>Transformando Precisão Técnica em Segurança Patrimonial</h1>      <p>        A Nivela conecta a realidade física do terreno à segurança jurídica do patrimônio.        Unimos experiência prática, tecnologia e inteligência geográfica para entregar        soluções confiáveis em topografia, georreferenciamento, regularização territorial        e assistência técnica especializada.      </p>    </div>    <div class="about-grid">      <div class="about-card">        <h2>Nossa História</h2>        <p>          A Nivela nasceu da união de profissionais com ampla experiência em projetos          de engenharia, agrimensura e geotecnologias. Identificamos que muitas empresas          e proprietários enfrentavam dificuldades causadas por informações imprecisas,          inconsistências documentais e riscos técnicos que poderiam comprometer decisões          estratégicas e investimentos.        </p>        <p>          Mais do que executar levantamentos, atuamos como parceiros na geração de          informações confiáveis para proteger, regularizar e valorizar patrimônios.        </p>      </div>      <div class="about-card">        <h2>O Que Nos Diferencia</h2>        <ul>          <li>✅ Precisão técnica com foco em resultados.</li>          <li>✅ Interpretação analítica de dados geoespaciais.</li>          <li>✅ Conformidade com normas e legislações vigentes.</li>          <li>✅ Mitigação de riscos técnicos, jurídicos e financeiros.</li>          <li>✅ Processos documentados, auditáveis e rastreáveis.</li>        </ul>      </div>    </div>    <div class="team-section">      <div class="team-content">        <h2>Equipe Multidisciplinar</h2>        <p>          Nossa equipe reúne profissionais das áreas de Engenharia de Agrimensura e          Cartográfica, Geografia e Técnicos em Agrimensura especializados em          geotecnologias.        </p>        <p>          Acreditamos que problemas complexos exigem diferentes perspectivas. Por isso,          promovemos uma cultura baseada em colaboração, autonomia, confiança e          desenvolvimento contínuo das pessoas.        </p>      </div>      <div class="team-content">        <h2>Cultura & Diversidade</h2>        <p>          Valorizamos ambientes inclusivos e acreditamos que a diversidade fortalece          a inovação e a qualidade das soluções que entregamos.        </p>        <p>          Incentivamos a igualdade de oportunidades e o desenvolvimento de lideranças          técnicas, respeitando e valorizando cada profissional que faz parte da nossa          trajetória.        </p>      </div>    </div>    <div class="mission-values">      <div class="mission-card">        <h3>Missão</h3>        <p>          Entregar serviços com precisão, responsabilidade e transparência para proteger,          regularizar e valorizar patrimônios.        </p>      </div>      <div class="mission-card">        <h3>Visão</h3>        <p>          Ser referência nacional em soluções de agrimensura, geotecnologias e          inteligência territorial, reconhecida pela excelência técnica e confiança.        </p>      </div>    </div>    <div class="values-section">      <h2>Nossos Valores</h2>      <div class="values-grid">        <div class="value-card">          <h4>Honestidade</h4>          <p>Transparência e ética em cada decisão.</p>        </div>        <div class="value-card">          <h4>Confiança</h4>          <p>Relacionamentos sólidos construídos pelo diálogo aberto.</p>        </div>        <div class="value-card">          <h4>Respeito à Dignidade Humana</h4>          <p>Valorização das pessoas acima de cargos e contratos.</p>        </div>        <div class="value-card">          <h4>Dedicação e Raça</h4>          <p>Compromisso para superar desafios e gerar resultados consistentes.</p>        </div>        <div class="value-card">          <h4>Excelência Técnica</h4>          <p>Busca contínua pela qualidade em cada entrega.</p>        </div>        <div class="value-card">          <h4>Orgulho de Pertencer</h4>          <p>Construímos juntos a história e o futuro da Nivela.</p>        </div>      </div>    </div>  </div></section>
+# Transformando Precisão Técnica em Segurança Patrimonial
+
+> Sobre a Nivela
+
+A Nivela conecta a realidade física do terreno à segurança jurídica do patrimônio. Unimos experiência prática, tecnologia e inteligência geográfica para entregar soluções confiáveis em topografia, georreferenciamento, regularização territorial e assistência técnica especializada.
+
+---
+
+## Nossa História
+
+A Nivela nasceu da união de profissionais com ampla experiência em projetos de engenharia, agrimensura e geotecnologias. Identificamos que muitas empresas e proprietários enfrentavam dificuldades causadas por informações imprecisas, inconsistências documentais e riscos técnicos que poderiam comprometer decisões estratégicas e investimentos.
+
+Mais do que executar levantamentos, atuamos como parceiros na geração de informações confiáveis para proteger, regularizar e valorizar patrimônios.
+
+## O Que Nos Diferencia
+
+- ✅ Precisão técnica com foco em resultados.
+- ✅ Interpretação analítica de dados geoespaciais.
+- ✅ Conformidade com normas e legislações vigentes.
+- ✅ Mitigação de riscos técnicos, jurídicos e financeiros.
+- ✅ Processos documentados, auditáveis e rastreáveis.
+
+---
+
+## Equipe Multidisciplinar
+
+Nossa equipe reúne profissionais das áreas de Engenharia de Agrimensura e Cartográfica, Geografia e Técnicos em Agrimensura especializados em geotecnologias.
+
+Acreditamos que problemas complexos exigem diferentes perspectivas. Por isso, promovemos uma cultura baseada em colaboração, autonomia, confiança e desenvolvimento contínuo das pessoas.
+
+## Cultura & Diversidade
+
+Valorizamos ambientes inclusivos e acreditamos que a diversidade fortalece a inovação e a qualidade das soluções que entregamos.
+
+Incentivamos a igualdade de oportunidades e o desenvolvimento de lideranças técnicas, respeitando e valorizando cada profissional que faz parte da nossa trajetória.
+
+---
+
+## Missão
+
+Entregar serviços com precisão, responsabilidade e transparência para proteger, regularizar e valorizar patrimônios.
+
+## Visão
+
+Ser referência nacional em soluções de agrimensura, geotecnologias e inteligência territorial, reconhecida pela excelência técnica e confiança.
+
+---
+
+# Nossos Valores
+
+### Honestidade
+Transparência e ética em cada decisão.
+
+### Confiança
+Relacionamentos sólidos construídos pelo diálogo aberto.
+
+### Respeito à Dignidade Humana
+Valorização das pessoas acima de cargos e contratos.
+
+### Dedicação e Raça
+Compromisso para superar desafios e gerar resultados consistentes.
+
+### Excelência Técnica
+Busca contínua pela qualidade em cada entrega.
+
+### Orgulho de Pertencer
+Construímos juntos a história e o futuro da Nivela.
