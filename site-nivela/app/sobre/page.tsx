@@ -8,7 +8,7 @@ export function generateMetadata() {
   const title = cmsPage?.title ?? "Sobre a Nivela";
   const description =
     cmsPage?.description ??
-    "Conheça a Nivela: engenharia, agrimensura e topografia com rigor técnico, clareza e responsabilidade patrimonial.";
+    "Conheça a Nivela: Nós unimos tecnologia, precisão e experiência para conectar o território à segurança jurídica do patrimônio.";
 
   return {
     alternates: {
@@ -28,17 +28,17 @@ const values = [
   {
     title: "Missão",
     description:
-      "Oferecer serviços de topografia, agrimensura e regularização fundiária com rigor técnico e responsabilidade, transformando medições em segurança patrimonial para o cliente final.",
+      "Entregar serviços com precisão, responsabilidade e transparência, promovendo autonomia, confiança e foco em resultados.",
   },
   {
     title: "Visão",
     description:
-      "Ser referência regional em qualidade técnica para proprietários de imóveis, crescendo de forma sustentável com base na confiança conquistada serviço a serviço.",
+      "Crescer de forma consistente, tornando a Nivela referência em confiança, qualidade técnica e impacto positivo.",
   },
   {
     title: "Valores",
     description:
-      "Rigor técnico sem concessões. Transparência na comunicação. Responsabilidade em cada laudo. Educação como diferencial. Qualidade acima de quantidade.",
+      "Honestidade. Confiança. Respeito à Dignidade Humana. Dedicação e Raça. Orgulho de Pertencer",
   },
 ];
 
@@ -79,7 +79,7 @@ export default function SobrePage() {
         <h1>{cmsPage?.title ?? "Engenharia com propósito, técnica com responsabilidade"}</h1>
         <p>
           {cmsPage?.description ||
-            "A Nivela nasceu da convicção de que cada proprietário de imóvel merece acesso a serviços técnicos de alto nível, com clareza, rigor e documentação que protege seu patrimônio."}
+            "A Nivela nasceu para ir além do levantamento de campo. Somos uma empresa de inteligência territorial que combina engenharia, geotecnologias e análise técnica para oferecer soluções confiáveis em topografia, georreferenciamento e regularização patrimonial. Nosso compromisso é transformar dados em segurança, reduzindo riscos e gerando valor para cada projeto que atendemos."}
         </p>
       </section>
 
