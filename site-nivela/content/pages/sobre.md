@@ -9,7 +9,6 @@ description: Na Nivela, unimos tecnologia, precisão e experiência para conecta
 ---
 # Transformando Precisão Técnica em Segurança Patrimonial
 
-> Sobre a Nivela
 
 A Nivela conecta a realidade física do terreno à segurança jurídica do patrimônio. Unimos experiência prática, tecnologia e inteligência geográfica para entregar soluções confiáveis em topografia, georreferenciamento, regularização territorial e assistência técnica especializada.
 
