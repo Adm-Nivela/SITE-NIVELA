@@ -1,19 +1,12 @@
 ---
-title: Engenharia com propósito, técnica com responsabilidade
+title: Transformando Precisão Técnica em Segurança Patrimonial
 slug: sobre
-description: Na Nivela, unimos tecnologia, precisão e experiência para conectar
-  o território à segurança jurídica do patrimônio. Entregamos soluções em
-  topografia, georreferenciamento e inteligência territorial que ajudam nossos
-  clientes a tomar decisões com confiança, reduzir riscos e valorizar seus
-  ativos.
+description: >
+  A Nivela conecta a realidade física do terreno à segurança jurídica do
+  patrimônio. Unimos experiência prática, tecnologia e inteligência geográfica
+  para entregar soluções confiáveis em topografia, georreferenciamento,
+  regularização territorial e assistência técnica especializada.
 ---
-# Transformando Precisão Técnica em Segurança Patrimonial
-
-> Sobre a Nivela
-
-A Nivela conecta a realidade física do terreno à segurança jurídica do patrimônio. Unimos experiência prática, tecnologia e inteligência geográfica para entregar soluções confiáveis em topografia, georreferenciamento, regularização territorial e assistência técnica especializada.
-
-- - -
 
 ## Nossa História
 
@@ -29,7 +22,7 @@ Mais do que executar levantamentos, atuamos como parceiros na geração de infor
 *  Mitigação de riscos técnicos, jurídicos e financeiros.
 *  Processos documentados, auditáveis e rastreáveis.
 
-- - -
+
 
 ## Equipe Multidisciplinar
 
