@@ -8,7 +8,7 @@ description: Entenda por que um levantamento técnico incompleto pode compromete
   registros imobiliários, gerar retrabalho e criar riscos jurídicos e
   patrimoniais em projetos de georreferenciamento.
 coverImage: /uploads/site_1.png
-draft: true
+draft: false
 ---
 No mercado imobiliário e de infraestrutura, é comum que projetos avancem baseados em entregas simplificadas: o famoso arquivo .txt com colunas de pontos ou, no máximo, um DWG em 2D. Para quem decide, isso parece apenas um detalhe técnico. Para quem entende de risco, é o primeiro passo para um prejuízo severo 
 
