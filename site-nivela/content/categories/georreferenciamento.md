@@ -1,5 +1,5 @@
 ---
-name: georreferenciamento
+name: Georreferenciamento
 slug: georreferenciamento
 description: >
   Conteúdos sobre georreferenciamento de imóveis rurais, certificação do INCRA,
