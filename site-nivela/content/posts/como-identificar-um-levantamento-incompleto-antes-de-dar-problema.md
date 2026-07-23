@@ -16,20 +16,22 @@ Um levantamento incompleto pode parecer suficiente no início, principalmente qu
 ### Alguns sinais ajudam a identificar quando um levantamento pode estar incompleto:
 
 1. Você recebeu apenas a planta e o memorial descritivo, sem relatório técnico Sem os relatórios de execução em campo e de processamento dos dados, não há rastreabilidade adequada. Ficam indefinidos aspectos como metodologia adotada, equipamentos utilizados, precisão obtida e critérios de validação — o que compromete a confiabilidade do levantamento.
-
 2. Não está claro como o levantamento foi executado A precisão de um levantamento está diretamente ligada ao método e aos equipamentos utilizados. A NBR 13.133 estabelece tolerâncias conforme a classe do levantamento e a acurácia dos instrumentos empregados, o que reforça a necessidade de identificar modelo e especificações dos equipamentos. Em levantamentos com GNSS, quando aplicável, também é importante verificar critérios de precisão definidos em normas e manuais técnicos, como os do IBGE e Incra.
-
 3. As coordenadas não têm contexto técnico definido Sem a definição do sistema de referência geodésico (como SIRGAS2000), sistema de projeção (como UTM) e a adequada descrição dos pontos, os dados ficam sujeitos a deslocamentos e incompatibilidades, comprometendo a integração com outros projetos e a aderência à realidade.
-
 4. Não há evidência de validação ou controle de qualidade Todo levantamento deve passar por verificação técnica, incluindo análise de erros, conferência de fechamento e avaliação das tolerâncias admissíveis. Quando necessário, ajustes devem ser aplicados para garantir consistência ao conjunto de dados, etapa fundamental para quem trabalha com responsabilidade técnica sobre as informações.
-
 5. Os dados não são compatíveis com outras bases Divergências em relação a projetos existentes, limites de matrícula ou bases georreferenciadas indicam um risco direto: inconsistência de limites, sobreposição de áreas e possível bloqueio em processos de regularização ou registro.
 
 ### E o que fazer na prática?
 
 Ao identificar um ou mais desses sinais, o mais prudente é não avançar com o projeto antes de validar a qualidade do levantamento.
 
- Antes de tomar qualquer decisão, é recomendável exigir: • relatório técnico completo, incluindo execução em campo e processamento dos dados • identificação dos métodos adotados e dos equipamentos utilizados • sistema de referência geodésico e projeção definidos (como SIRGAS2000 e UTM) • evidências de verificação da qualidade, com análise de erros, fechamento e atendimento às tolerâncias • compatibilização com outras bases relevantes (SIGEF, Prefeitura e projetos existentes)
+ Antes de tomar qualquer decisão, é recomendável exigir: 
+
+* Relatório técnico completo, incluindo execução em campo e processamento dos dados 
+* Identificação dos métodos adotados e dos equipamentos utilizados 
+* Sistema de referência geodésico e projeção definidos (como SIRGAS2000 e UTM) 
+* Evidências de verificação da qualidade, com análise de erros, fechamento e atendimento às tolerâncias
+* Compatibilização com outras bases relevantes (SIGEF, Prefeitura e projetos existentes)
 
 Ignorar esses pontos normalmente leva a consequências concretas: retrabalho de projeto, atrasos na obra, divergências de limites, exigências em cartório, risco de litígio e perdas financeiras que poderiam ser evitadas com uma base de dados confiável desde o início.
 
