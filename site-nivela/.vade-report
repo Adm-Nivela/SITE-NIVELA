@@ -1,0 +1,54 @@
+# Vercel Web Analytics Installation
+
+## Summary
+Successfully installed and configured Vercel Web Analytics for this Next.js App Router project.
+
+## Changes Made
+
+### 1. Package Installation
+- Installed `@vercel/analytics` version 2.0.1
+- Added to dependencies in `package.json`
+- Updated `package-lock.json` with new dependencies
+
+### 2. Configuration
+Modified `/app/layout.tsx`:
+- Added import statement: `import { Analytics } from "@vercel/analytics/next"`
+- Added `<Analytics />` component at the end of the `<body>` tag in the root layout
+
+## Implementation Details
+
+The implementation follows the official Vercel Analytics documentation (fetched from https://vercel.com/docs/analytics/quickstart) for Next.js App Router:
+
+1. **Framework Detection**: Identified this as a Next.js 16.2.7 App Router project
+2. **Package Manager**: Used npm (detected via package-lock.json)
+3. **Component Placement**: Added Analytics component in the root layout (`app/layout.tsx`) inside the body element, following the recommended pattern for App Router projects
+4. **Code Preservation**: Maintained all existing imports, metadata, and component structure
+
+## Verification Steps Completed
+
+✓ Build completed successfully with no errors
+✓ Linter passed with no issues
+✓ TypeScript compilation successful
+✓ No test suite detected in package.json (no tests to run)
+
+## Next Steps (Manual)
+
+To complete the setup and view analytics data:
+
+1. **Enable in Vercel Dashboard**: 
+   - Navigate to your project's Analytics section in the Vercel dashboard
+   - Click "Enable" to activate Web Analytics
+   - This will add routes at `/_vercel/insights/*` after deployment
+
+2. **Deploy**: 
+   - Deploy this branch to Vercel
+   - After deployment, check the browser Network tab for requests from `/<unique-path>/view`
+
+3. **View Data**: 
+   - Analytics data will become available in the dashboard after several days of visitor activity
+   - Advanced filtering and custom events are available on Pro and Enterprise plans
+
+## Files Modified
+- `site-nivela/app/layout.tsx` - Added Analytics component
+- `site-nivela/package.json` - Added @vercel/analytics dependency
+- `site-nivela/package-lock.json` - Updated with new dependencies
