@@ -71,15 +71,20 @@ export default function RootLayout({
           <Footer />
         </div>
 <Analytics />
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-S62YR8E198">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-S62YR8E198');
+<Script
+  src="https://www.googletagmanager.com/gtag/js?id<Script
+  id="google-analytics"
+  strategy="afterInteractive"
+  dangerouslySetInnerHTML={{
+    __html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-S62YR8E198');
+    `,
+  }}
+/>
 </script>
 </body>
     </html>
