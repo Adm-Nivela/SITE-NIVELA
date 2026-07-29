@@ -73,7 +73,11 @@ export default function RootLayout({
 <Analytics />
 
 <Script
-  src="https://www.googletagmanager.com/gtag/js?id<Script
+  src="https://www.googletagmanager.com/gtag/js?id=G-S62YR8E198"
+  strategy="afterInteractive"
+/>
+
+<Script
   id="google-analytics"
   strategy="afterInteractive"
   dangerouslySetInnerHTML={{
@@ -85,7 +89,6 @@ export default function RootLayout({
     `,
   }}
 />
-</script>
 </body>
     </html>
   );
