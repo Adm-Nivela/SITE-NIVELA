@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     siteName: "Nivela",
     title: "Nivela | Território & Patrimônio",
     description:
-      "Serviços técnicos de agrimensura, topografia e regularização fundiária para decisões patrimoniais mais seguras.",
+      "Serviços especializados de agrimensura, topografia e regularização fundiária para decisões patrimoniais mais seguras.",
   },
   robots: {
     index: true,
