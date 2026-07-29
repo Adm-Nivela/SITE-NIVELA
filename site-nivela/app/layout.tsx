@@ -70,22 +70,17 @@ export default function RootLayout({
           {children}
           <Footer />
         </div>
-      <Analytics />
+<Analytics />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S62YR8E198">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-letagmanager.com/gtag/js?id=G-S62YR8E198"
-  strategy="afterInteractive"
-/>
-
-<Script id="google-analytics" strategy="afterInteractive">
-  {`
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-S62YR8E198');
-  `}
-</Script>
-
+  gtag('config', 'G-S62YR8E198');
+</script>
 </body>
     </html>
   );
