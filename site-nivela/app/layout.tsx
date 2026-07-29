@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Script from "next/script";
 
 import "@/styles/header.css";
 import "@/styles/footer.css";
@@ -69,8 +70,23 @@ export default function RootLayout({
           {children}
           <Footer />
         </div>
-        <Analytics />
-      </body>
+      <Analytics />
+
+letagmanager.com/gtag/js?id=G-S62YR8E198"
+  strategy="afterInteractive"
+/>
+
+<Script id="google-analytics" strategy="afterInteractive">
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-S62YR8E198');
+  `}
+</Script>
+
+</body>
     </html>
   );
 }
