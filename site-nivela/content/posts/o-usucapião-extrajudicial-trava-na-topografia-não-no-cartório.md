@@ -2,7 +2,7 @@
 title: O usucapião extrajudicial trava na topografia, não no cartório
 slug: usucapiao-extrajudicial-topografia
 date: 2026-07-23
-category: regularizacao-fundiaria
+category: regularizacao-fundiaria-e-retificacao-de-area
 description: Descubra por que a qualidade do levantamento topográfico pode
   definir o sucesso do usucapião extrajudicial e evitar devoluções, retrabalho e
   atrasos no cartório.
