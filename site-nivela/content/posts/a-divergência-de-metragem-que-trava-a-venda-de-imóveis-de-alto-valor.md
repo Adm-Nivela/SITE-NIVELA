@@ -2,7 +2,7 @@
 title: A divergência de metragem que trava a venda de imóveis de alto valor
 slug: divergencia-metragem-imoveis
 date: 2026-07-23
-category: area-e-limites
+category: due-diligence-e-auditoria-territorial
 description: Entenda como divergências de metragem podem comprometer negociações
   imobiliárias e por que a retificação de área é essencial para garantir
   segurança jurídica e valor ao patrimônio.
