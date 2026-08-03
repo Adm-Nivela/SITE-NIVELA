@@ -3,7 +3,7 @@ title: "O perigo invisível do As-Built e do Georreferenciamento: por que aceita
   apenas um .txt pode travar um imóvel por anos"
 slug: as-built-georreferenciamento
 date: 2026-07-22
-category: georreferenciamento
+category: georreferenciamento-rural-incra-sigef
 description: Entenda por que um levantamento técnico incompleto pode comprometer
   registros imobiliários, gerar retrabalho e criar riscos jurídicos e
   patrimoniais em projetos de georreferenciamento.
