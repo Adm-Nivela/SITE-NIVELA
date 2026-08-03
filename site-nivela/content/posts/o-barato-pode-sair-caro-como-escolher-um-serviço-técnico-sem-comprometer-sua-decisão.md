@@ -3,7 +3,7 @@ title: "O barato pode sair caro: como escolher um serviço técnico sem
   comprometer sua decisão"
 slug: como-escolher-servico-tecnico
 date: 2026-07-23
-category: topografia
+category: due-diligence-e-auditoria-territorial
 description: Entenda por que o menor orçamento nem sempre representa a melhor
   escolha e descubra quais critérios técnicos devem ser avaliados antes de
   contratar um serviço de topografia ou agrimensura.
