@@ -2,7 +2,7 @@
 title: "Acompanhamento Técnico em Obras: Quanto Custa Não Fazer?"
 slug: acompanhamento-tecnico-em-obras
 date: 2026-07-23
-category: due-diligence-e-auditoria-territorial
+category: acompanhamento-de-obra-e-pericia-tecnica
 description: Descubra como o acompanhamento técnico em obras reduz retrabalho,
   evita erros de locação, protege o investimento e garante maior segurança
   durante toda a execução do empreendimento.
