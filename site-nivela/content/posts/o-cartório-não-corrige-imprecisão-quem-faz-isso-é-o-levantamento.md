@@ -2,7 +2,7 @@
 title: O cartório não corrige imprecisão. Quem faz isso é o levantamento.
 slug: cartorio-nao-corrige-imprecisao
 date: 2026-07-23
-category: area-e-limites
+category: regularizacao-fundiaria-e-retificacao-de-area
 description: Entenda por que um levantamento técnico preciso é indispensável
   para resolver conflitos de divisa, garantir segurança jurídica e evitar
   disputas sobre os limites da propriedade.
