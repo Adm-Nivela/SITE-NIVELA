@@ -2,7 +2,7 @@
 title: Como identificar um levantamento incompleto antes de dar problema?
 slug: como-identificar-levantamento-incompleto
 date: 2026-07-23
-category: topografia
+category: due-diligence-e-auditoria-territorial
 description: Aprenda a reconhecer os sinais de um levantamento topográfico
   incompleto e entenda como evitar retrabalho, conflitos de limites e prejuízos
   em projetos imobiliários e de infraestrutura.
