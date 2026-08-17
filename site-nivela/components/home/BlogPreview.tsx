@@ -24,15 +24,16 @@ export default function BlogPreview() {
 
   return (
     <section className="section blog-preview-section">
-      <span className="section-label">Do blog</span>
+      <span className="section-label">Conteúdo técnico</span>
 
       <h2 className="section-title">
-        Conteúdo técnico para decisões seguras
+        Informação para entender melhor o imóvel
       </h2>
 
       <p className="section-sub">
-        Publicamos artigos que educam proprietários, construtoras e advogados
-        sobre regularização, topografia e seus direitos.
+        Publicamos conteúdos sobre regularização de imóveis, topografia,
+        georreferenciamento e outras situações que ajudam proprietários,
+        advogados e investidores a tomar decisões com mais informação.
       </p>
 
       <div className="blog-grid">
@@ -56,6 +57,7 @@ export default function BlogPreview() {
                     {getInitials(post.categoryLabel || post.title)}
                   </span>
                 )}
+
                 {post.categoryLabel ? (
                   <span className="cat-tag">{post.categoryLabel}</span>
                 ) : null}

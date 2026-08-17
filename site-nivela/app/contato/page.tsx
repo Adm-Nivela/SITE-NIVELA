@@ -4,13 +4,13 @@ export const metadata = {
   alternates: {
     canonical: "/contato",
   },
-  title: "Contato",
+  title: "Contato e Orçamento",
   description:
-    "Fale com a Nivela para solicitar avaliação técnica, orçamento de topografia, agrimensura ou regularização de imóvel.",
+    "Fale com a Nivela sobre regularização de imóveis, topografia, agrimensura, georreferenciamento rural e diagnóstico técnico no Rio de Janeiro.",
   openGraph: {
-    title: "Contato | Nivela",
+    title: "Contato e Orçamento | Nivela",
     description:
-      "Envie sua dúvida ou solicite atendimento técnico para o seu imóvel.",
+      "Envie os dados do imóvel e fale com a Nivela sobre regularização, topografia, georreferenciamento e outros serviços técnicos.",
     url: "/contato",
   },
 };
@@ -18,13 +18,22 @@ export const metadata = {
 type ContatoPageProps = {
   searchParams: Promise<{
     assunto?: string;
+    servico?: string;
   }>;
 };
 
 export default async function ContatoPage({ searchParams }: ContatoPageProps) {
-  const { assunto } = await searchParams;
-  const initialSubject =
-    assunto === "avaliacao-tecnica" ? "Dúvida técnica" : "Orçamento";
+  const { assunto, servico } = await searchParams;
 
-  return <ContatoClient initialSubject={initialSubject} />;
+  const initialSubject =
+    assunto === "diagnostico-tecnico"
+      ? "Diagnóstico técnico"
+      : "Orçamento";
+
+  return (
+    <ContatoClient
+      initialSubject={initialSubject}
+      initialService={servico ?? ""}
+    />
+  );
 }

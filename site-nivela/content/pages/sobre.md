@@ -1,37 +1,42 @@
 ---
-title: Transformando Precisão Técnica em Segurança Patrimonial
-slug: sobre
-description: >
-  A Nivela conecta a realidade física do terreno à segurança jurídica do
-  patrimônio. Unimos experiência prática, tecnologia e inteligência geográfica
-  para entregar soluções confiáveis em topografia, georreferenciamento,
-  regularização territorial e assistência técnica especializada.
+title: "Território, patrimônio e responsabilidade técnica"
+slug: "sobre"
+description: "A Nivela combina agrimensura, topografia, georreferenciamento e inteligência territorial para produzir informações confiáveis sobre imóveis e apoiar decisões patrimoniais."
 ---
 
-## Nossa História
+## Nossa história
 
-A Nivela nasceu da união de profissionais com ampla experiência em projetos de engenharia, agrimensura e geotecnologias. Identificamos que muitas empresas e proprietários enfrentavam dificuldades causadas por informações imprecisas, inconsistências documentais e riscos técnicos que poderiam comprometer decisões estratégicas e investimentos.
+A Nivela nasceu da experiência de profissionais ligados à agrimensura, geotecnologias e análise territorial.
 
-Mais do que executar levantamentos, atuamos como parceiros na geração de informações confiáveis para proteger, regularizar e valorizar patrimônios.
+Na prática, percebemos que muitos problemas relacionados a imóveis vão além de simplesmente medir um terreno. Eles aparecem quando **documentos, limites, cadastros e realidade de campo apresentam informações diferentes**.
 
-## O Que Nos Diferencia
+Por isso, a Nivela trabalha além do levantamento isolado. Nosso objetivo é transformar dados técnicos em informações confiáveis que ajudem proprietários, advogados, compradores, investidores e empresas a entender melhor seus imóveis e tomar decisões com mais segurança.
 
-*  Precisão técnica com foco em resultados.
-*  Interpretação analítica de dados geoespaciais.
-*  Conformidade com normas e legislações vigentes.
-*  Mitigação de riscos técnicos, jurídicos e financeiros.
-*  Processos documentados, auditáveis e rastreáveis.
+## O que nos diferencia
 
+- Responsabilidade técnica compatível com cada serviço.
+- Integração entre documentos, campo e dados geográficos.
+- Processos documentados e rastreáveis.
+- Análise territorial além da simples medição.
+- Clareza na apresentação das informações técnicas.
+- Atuação integrada com advogados, corretores e outros profissionais quando necessário.
 
+## Equipe multidisciplinar
 
-## Equipe Multidisciplinar
+A equipe da Nivela reúne conhecimentos de Engenharia de Agrimensura e Cartográfica, Geografia, técnicas de levantamento e geotecnologias.
 
-Nossa equipe reúne profissionais das áreas de Engenharia de Agrimensura e Cartográfica, Geografia e Técnicos em Agrimensura especializados em geotecnologias.
+Essa combinação permite analisar o imóvel por diferentes perspectivas, desde a realidade encontrada em campo até a representação técnica e a organização das informações territoriais.
 
-Acreditamos que problemas complexos exigem diferentes perspectivas. Por isso, promovemos uma cultura baseada em colaboração, autonomia, confiança e desenvolvimento contínuo das pessoas.
+## Tecnologia e inteligência territorial
 
-## Cultura & Diversidade
+Além dos levantamentos de campo, a Nivela trabalha com geoprocessamento, bancos de dados geográficos, cartografia e análise territorial.
 
-Valorizamos ambientes inclusivos e acreditamos que a diversidade fortalece a inovação e a qualidade das soluções que entregamos.
+Essas ferramentas ajudam a comparar informações, identificar padrões, localizar inconsistências e apoiar decisões relacionadas a imóveis e territórios.
 
-Incentivamos a igualdade de oportunidades e o desenvolvimento de lideranças técnicas, respeitando e valorizando cada profissional que faz parte da nossa trajetória.
+## Nossa forma de trabalhar
+
+Antes de indicar um serviço, buscamos entender a finalidade do imóvel, o problema que precisa ser resolvido e as informações que já estão disponíveis.
+
+A partir dessa análise, avaliamos os documentos, identificamos quais verificações são necessárias e definimos o trabalho técnico adequado para cada situação.
+
+Quando o levantamento de campo é necessário, planejamos a execução conforme a finalidade do serviço e produzimos as peças técnicas previstas no escopo.

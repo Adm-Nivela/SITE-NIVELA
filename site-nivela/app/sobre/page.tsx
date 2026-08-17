@@ -1,14 +1,16 @@
 import Link from "next/link";
 
 import { getCmsPage } from "@/lib/pages";
-import { whatsappHref } from "@/lib/whatsapp";
+import WhatsAppLink from "@/components/WhatsAppLink";
 
 export function generateMetadata() {
   const cmsPage = getCmsPage("sobre");
-  const title = cmsPage?.title ?? "Sobre a Nivela";
+
+  const title = "Quem Somos | Agrimensura e Território";
+
   const description =
     cmsPage?.description ??
-    "Conheça a Nivela: Nós unimos tecnologia, precisão e experiência para conectar o território à segurança jurídica do patrimônio.";
+    "Conheça a Nivela Território & Patrimônio, empresa especializada em agrimensura, topografia, georreferenciamento e soluções técnicas para imóveis no Rio de Janeiro.";
 
   return {
     alternates: {
@@ -28,44 +30,44 @@ const values = [
   {
     title: "Missão",
     description:
-      "Entregar serviços com precisão, responsabilidade e transparência, promovendo autonomia, confiança e foco em resultados.",
+      "Produzir informação territorial confiável para ajudar pessoas e empresas a regularizar, proteger e tomar melhores decisões sobre seus imóveis.",
   },
   {
     title: "Visão",
     description:
-      "Crescer de forma consistente, tornando a Nivela referência em confiança, qualidade técnica e impacto positivo.",
+      "Ser reconhecida pela confiança técnica, responsabilidade profissional e capacidade de transformar dados territoriais em decisões mais seguras.",
   },
   {
     title: "Valores",
     description:
-      "Honestidade. Confiança. Respeito à Dignidade Humana. Dedicação e Raça. Orgulho de Pertencer",
+      "Honestidade, responsabilidade, confiança, respeito, colaboração, dedicação e compromisso com a qualidade técnica.",
   },
 ];
 
 const steps = [
   {
     number: "01",
-    title: "Avaliação técnica inicial",
+    title: "Entender a finalidade",
     description:
-      "Entendemos a demanda do cliente, verificamos a documentação existente e identificamos o tipo de serviço adequado antes de emitir qualquer proposta.",
+      "Começamos entendendo o que o cliente precisa resolver e quais documentos e informações já estão disponíveis.",
   },
   {
     number: "02",
-    title: "Execução em campo",
+    title: "Analisar documentos e território",
     description:
-      "Levantamento com equipamento calibrado, seguindo normas ABNT e especificações do INCRA quando aplicável. Registro fotográfico e rastreamento de pontos.",
+      "Verificamos os dados disponíveis para identificar divergências, lacunas e pontos que precisam de confirmação técnica.",
   },
   {
     number: "03",
-    title: "Processamento e elaboração técnica",
+    title: "Planejar e executar o trabalho",
     description:
-      "Cálculo de coordenadas, elaboração de plantas, memoriais descritivos e demais documentos com software especializado e conferência de qualidade.",
+      "Definimos o método adequado, realizamos o levantamento quando necessário e processamos os dados com controle de qualidade.",
   },
   {
     number: "04",
-    title: "Entrega e ART",
+    title: "Produzir e entregar as peças técnicas",
     description:
-      "Entrega dos arquivos, emissão de ART e suporte ao cliente para uso da documentação junto a cartórios, INCRA ou juízo.",
+      "Elaboramos plantas, memoriais, relatórios e demais entregáveis previstos no escopo, com responsabilidade técnica compatível com o serviço.",
   },
 ];
 
@@ -76,10 +78,15 @@ export default function SobrePage() {
     <main>
       <section className="sobre-hero">
         <span className="section-label">Quem somos</span>
-        <h1>{cmsPage?.title ?? "Engenharia com propósito, técnica com responsabilidade"}</h1>
+
+        <h1>
+          {cmsPage?.title ??
+            "Território, patrimônio e responsabilidade técnica"}
+        </h1>
+
         <p>
           {cmsPage?.description ||
-            "A Nivela nasceu para ir além do levantamento de campo. Somos uma empresa de inteligência territorial que combina engenharia, geotecnologias e análise técnica para oferecer soluções confiáveis em topografia, georreferenciamento e regularização patrimonial. Nosso compromisso é transformar dados em segurança, reduzindo riscos e gerando valor para cada projeto que atendemos."}
+            "A Nivela atua com agrimensura, topografia, georreferenciamento e análise territorial para transformar documentos, medições e dados de campo em informações confiáveis para decisões sobre imóveis."}
         </p>
       </section>
 
@@ -107,16 +114,22 @@ export default function SobrePage() {
 
       <section className="section method-section">
         <span className="section-label">Como trabalhamos</span>
-        <h2 className="section-title">Método claro, processo documentado</h2>
+
+        <h2 className="section-title">
+          Método técnico, processo documentado
+        </h2>
+
         <p className="section-sub">
-          Cada projeto segue um fluxo estruturado que garante precisão,
-          rastreabilidade e entrega dentro das normas.
+          Cada trabalho parte da finalidade do imóvel e segue um processo de
+          análise, planejamento, campo, controle de qualidade e produção das
+          peças técnicas previstas no escopo.
         </p>
 
         <div className="steps">
           {steps.map((step) => (
             <article className="step" key={step.number}>
               <div className="step-num">{step.number}</div>
+
               <div className="step-body">
                 <h3>{step.title}</h3>
                 <p>{step.description}</p>
@@ -128,19 +141,20 @@ export default function SobrePage() {
 
       <section className="cta-band">
         <h2>
-          Pronto para resolver a situação <em>técnica do seu imóvel?</em>
+          Precisa entender ou regularizar a situação{" "}
+          <em>técnica do seu imóvel?</em>
         </h2>
+
         <div className="cta-btns">
-          <a
-            href={whatsappHref}
+          <WhatsAppLink
             className="btn-whatsapp"
-            target="_blank"
-            rel="noopener noreferrer"
+            location="sobre"
           >
-            WhatsApp
-          </a>
+            Falar pelo WhatsApp
+          </WhatsAppLink>
+
           <Link href="/contato" className="btn-gold">
-            Solicitar Avaliação
+            Solicitar Diagnóstico Técnico
           </Link>
         </div>
       </section>

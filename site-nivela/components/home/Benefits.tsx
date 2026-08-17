@@ -1,38 +1,39 @@
 const benefits = [
   {
     number: "01",
-    title: "Rigor Técnico",
+    title: "Método e Rastreabilidade",
     description:
-      "Todos os serviços seguem normas ABNT e são executados com equipamentos calibrados e metodologia precisa.",
+      "Cada trabalho é planejado conforme a finalidade do imóvel, com método, controle de qualidade e registros que permitem conferir as informações produzidas.",
   },
   {
     number: "02",
-    title: "Educação do Mercado",
+    title: "Clareza para Decidir",
     description:
-      "Acreditamos que um cliente informado toma decisões melhores. Por isso publicamos conteúdo técnico acessível.",
+      "Traduzimos informações técnicas para que proprietários, advogados e investidores entendam melhor os limites, riscos e próximos passos de cada situação.",
   },
   {
     number: "03",
-    title: "Responsabilidade Assinada",
+    title: "Responsabilidade Técnica",
     description:
-      "Cada projeto tem ART registrada, garantindo respaldo jurídico e técnico para o cliente em qualquer instância.",
+      "Os serviços são conduzidos por profissional habilitado, com ART compatível com o escopo contratado e suporte técnico dentro das responsabilidades da Nivela.",
   },
 ];
 
 export default function Benefits() {
   return (
     <section className="diff-section">
-      <span className="section-label">Nossa filosofia</span>
+      <span className="section-label">Como trabalhamos</span>
 
       <h2 className="section-title">
-        Fazemos poucos serviços.
+        Informação técnica para
         <br />
-        Mas fazemos bem feito.
+        decisões mais seguras
       </h2>
 
       <p className="section-sub">
-        A Nivela não compete por volume. Compete por qualidade técnica e pela
-        confiança que cada laudo gera para o cliente.
+        O trabalho da Nivela conecta finalidade, documentos, campo e peças
+        técnicas para reduzir incertezas e dar mais clareza às decisões sobre o
+        imóvel.
       </p>
 
       <div className="diff-grid">

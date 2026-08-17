@@ -1,13 +1,15 @@
 ---
-title: "Serviços técnicos para quem decide com responsabilidade"
+title: "Regularização de imóveis, topografia e agrimensura no Rio de Janeiro"
 slug: "servicos"
-description: "Cada serviço da Nivela é organizado pela necessidade do cliente, não por catálogo. Encontre o que resolve sua situação."
+description: "Regularização de imóveis, topografia, agrimensura e georreferenciamento para proprietários que precisam entender áreas, limites e documentos no Rio de Janeiro."
 ---
 
-# Serviços da Nivela
+## Serviços para cada situação do imóvel
 
-Os serviços da Nivela foram estruturados para atender proprietários de imóveis que precisam de clareza sobre área, limites, documentação e regularização. Cada demanda é analisada a partir do problema real: construir, vender, comprar, regularizar, dividir, demarcar ou comprovar tecnicamente uma situação.
+A Nivela atua principalmente na **regularização de imóveis urbanos e rurais**, ajudando proprietários, advogados e investidores quando existem dúvidas ou divergências relacionadas à área, aos limites, aos documentos ou à realidade de campo.
 
-Trabalhamos com levantamento topográfico, georreferenciamento, demarcação e divisão de terras, cartografia, plantas técnicas e desenho técnico em engenharia. Em todos os casos, o objetivo é entregar informação confiável, documentação organizada e responsabilidade técnica compatível com a necessidade do cliente.
+Cada situação é analisada a partir da finalidade do imóvel. Dependendo do caso, o trabalho pode envolver **levantamento topográfico e planialtimétrico, agrimensura, georreferenciamento de imóvel rural, demarcação, divisão de áreas, planta, memorial descritivo e outras peças técnicas**.
 
-Se você não sabe exatamente qual serviço precisa contratar, a avaliação inicial ajuda a identificar o caminho correto antes de avançar com qualquer proposta.
+O objetivo não é indicar um serviço antes de entender o problema. Primeiro identificamos a necessidade e, a partir dela, definimos o levantamento, as peças técnicas e o suporte adequado para cada situação.
+
+Se você ainda não sabe qual serviço precisa contratar, o **diagnóstico técnico inicial** ajuda a entender o cenário e definir os próximos passos.

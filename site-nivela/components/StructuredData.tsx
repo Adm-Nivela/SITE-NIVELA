@@ -1,30 +1,56 @@
-const whatsappPhone = "+55 21 97891-8246";
+const SITE_URL = "https://nivela.eng.br";
+const WHATSAPP_PHONE = "+5521978918246";
 
 export default function StructuredData() {
   const data = {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
+    "@type": "Organization",
+    "@id": `${SITE_URL}/#organization`,
+
     name: "Nivela Território & Patrimônio",
+
+    url: SITE_URL,
+
     description:
-      "Serviços de agrimensura, topografia, cartografia e regularização fundiária no Rio de Janeiro.",
-    telephone: whatsappPhone,
+      "Regularização de imóveis, topografia, agrimensura, georreferenciamento e inteligência territorial no Rio de Janeiro.",
+
+    telephone: WHATSAPP_PHONE,
+
+    logo: `${SITE_URL}/brand/nivela-symbol-light.png`,
+
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: WHATSAPP_PHONE,
+      contactType: "customer service",
+      availableLanguage: "Portuguese",
+    },
+
     areaServed: {
-      "@type": "AdministrativeArea",
+      "@type": "State",
       name: "Rio de Janeiro",
     },
+
     knowsAbout: [
+      "Regularização de imóveis",
       "Agrimensura",
       "Topografia",
+      "Levantamento topográfico",
+      "Levantamento planialtimétrico",
+      "Georreferenciamento de imóveis rurais",
+      "SIGEF",
+      "Retificação de área",
+      "Levantamentos técnicos para usucapião",
       "Cartografia",
-      "Regularização fundiária",
-      "Georreferenciamento",
+      "Inteligência territorial",
     ],
   };
 
   return (
     <script
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
       type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(data).replace(/</g, "\\u003c"),
+      }}
     />
   );
 }

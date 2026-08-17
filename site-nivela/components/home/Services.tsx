@@ -2,45 +2,46 @@ import Link from "next/link";
 
 const services = [
   {
+    icon: "RG",
+    title: "Regularização de Imóveis",
+    description:
+      "Diagnóstico e suporte técnico para imóveis urbanos e rurais com divergências de área, limites, documentos ou ocupação.",
+  },
+  {
     icon: "TP",
-    title: "Topografia e Levantamento",
+    title: "Levantamento Topográfico e Planialtimétrico",
     description:
-      "Levantamento planialtimétrico, cadastral e de situação para imóveis urbanos e rurais com precisão e laudo técnico.",
+      "Medição e representação do terreno para regularização, conferência de área, projetos, divisão e outras finalidades.",
   },
   {
-    icon: "AR",
-    title: "Agrimensura e Regularização",
+    icon: "GR",
+    title: "Georreferenciamento de Imóvel Rural",
     description:
-      "Georreferenciamento, demarcação e divisão de terras para processos de regularização fundiária e registro em cartório.",
+      "Levantamento, processamento e preparação das peças técnicas para imóveis rurais, incluindo suporte ao SIGEF quando aplicável.",
   },
   {
-    icon: "CM",
-    title: "Cartografia e Mapeamento",
+    icon: "UR",
+    title: "Usucapião e Retificação de Área",
     description:
-      "Elaboração de plantas, cartas e mapas temáticos com sistema de coordenadas oficiais e compatibilidade com INCRA e cartório.",
-  },
-  {
-    icon: "DT",
-    title: "Desenho Técnico em Engenharia",
-    description:
-      "Plantas, perfis, cortes e memoriais descritivos elaborados com rigor normativo para projetos de engenharia civil.",
+      "Levantamento, planta, memorial descritivo e responsabilidade técnica para apoiar procedimentos de usucapião e correção da descrição do imóvel.",
   },
 ];
 
 export default function Services() {
   return (
     <section className="section services-section">
-      <span className="section-label">O que fazemos</span>
+      <span className="section-label">Principais soluções</span>
 
       <h2 className="section-title">
-        Serviços especializados em
+        Serviços para regularizar,
         <br />
-        território e patrimônio
+        conferir e proteger seu imóvel
       </h2>
 
       <p className="section-sub">
-        Cada serviço é conduzido com critério técnico, documentação completa e
-        assinatura de responsabilidade. Poucos serviços, feitos com excelência.
+        Cada trabalho começa pela finalidade do imóvel. A partir dela,
+        definimos o levantamento, as peças técnicas e o suporte necessário para
+        cada situação.
       </p>
 
       <div className="services-grid">
@@ -54,7 +55,7 @@ export default function Services() {
             <p>{service.description}</p>
 
             <Link href="/servicos" className="service-link">
-              Saiba mais
+              Conhecer o serviço
             </Link>
           </article>
         ))}

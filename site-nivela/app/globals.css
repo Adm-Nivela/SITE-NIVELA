@@ -111,6 +111,27 @@ video {
     transform 0.2s ease;
 }
 
+.btn-petrol {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  border: 0;
+  background: linear-gradient(135deg, #1a78b3, var(--petrol));
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  color: var(--white);
+  padding: 0.85rem 2rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transform: translateY(0);
+  transition:
+    background 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+
 .btn-outline {
   position: relative;
   isolation: isolate;

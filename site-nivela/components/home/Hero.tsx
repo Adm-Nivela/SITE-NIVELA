@@ -2,16 +2,16 @@ import Link from "next/link";
 
 const stats = [
   {
-    value: "100%",
-    label: "Responsabilidade técnica assinada",
-  },
-  {
     value: "ART",
-    label: "Anotação em todos os serviços",
+    label: "Responsabilidade técnica conforme o escopo",
   },
   {
-    value: "B2C",
-    label: "Foco no cliente final",
+    value: "RJ",
+    label: "Atuação no Rio de Janeiro",
+  },
+  {
+    value: "Urbano + Rural",
+    label: "Soluções para diferentes tipos de imóveis",
   },
 ];
 
@@ -24,18 +24,19 @@ export default function Hero() {
         <span className="hero-badge">Território & Patrimônio</span>
 
         <h1>
-          Segurança técnica para decisões que exigem{" "}
-          <em>responsabilidade</em>
+          Regularização de imóveis, topografia e agrimensura no{" "}
+          <em>Rio de Janeiro</em>
         </h1>
 
         <p>
-          Mais que plantas e medições, entregamos soluções estratégicas para
-          quem precisa de certeza jurídica em cada metro quadrado do seu imóvel.
+          A Nivela conecta documentos, limites e realidade de campo para
+          ajudar proprietários, advogados e investidores a regularizar,
+          conferir e tomar decisões mais seguras sobre imóveis urbanos e rurais.
         </p>
 
         <div className="hero-actions">
           <Link href="/contato" className="btn-gold">
-            Solicitar Avaliação Técnica
+            Solicitar Diagnóstico Técnico
           </Link>
 
           <Link href="/servicos" className="btn-outline">

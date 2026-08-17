@@ -7,14 +7,15 @@ export const metadata = {
   alternates: {
     canonical: "/blog",
   },
-  title: "Blog técnico",
+  title: "Blog sobre Regularização de Imóveis e Topografia",
   description:
-    "Artigos sobre topografia, agrimensura, documentação de imóveis, limites, áreas e regularização fundiária.",
+    "Conteúdos sobre regularização de imóveis, topografia, agrimensura, georreferenciamento, SIGEF, limites e documentação no Rio de Janeiro.",
   openGraph: {
-    title: "Blog técnico da Nivela",
+    title: "Blog da Nivela | Regularização, Topografia e Território",
     description:
-      "Conteúdo técnico em linguagem clara para proprietários, advogados e pequenas construtoras.",
+      "Conteúdo técnico em linguagem clara sobre imóveis, limites, documentos, topografia, georreferenciamento e regularização.",
     url: "/blog",
+    type: "website",
   },
 };
 
@@ -39,11 +40,14 @@ function getInitials(value: string) {
 export default async function BlogPage({ searchParams }: BlogPageProps) {
   const params = await searchParams;
   const selectedCategory = params?.categoria ?? "";
+
   const allPosts = getAllPosts();
   const categories = getPostCategories();
+
   const posts = selectedCategory
     ? allPosts.filter((post) => post.category === selectedCategory)
     : allPosts;
+
   const selectedCategoryLabel =
     categories.find((category) => category.slug === selectedCategory)?.label ??
     "categoria selecionada";
@@ -51,11 +55,14 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
   return (
     <main>
       <section className="sobre-hero">
-        <span className="section-label">Conhecimento técnico</span>
-        <h1>Entenda o seu imóvel antes de tomar decisões</h1>
+        <span className="section-label">Conteúdo técnico</span>
+
+        <h1>Regularização de imóveis, topografia e território</h1>
+
         <p>
-          Artigos escritos por engenheiro agrimensor para proprietários, construtoras
-          e advogados que precisam de clareza técnica sem juridiquês.
+          Conteúdos em linguagem clara para proprietários, advogados,
+          compradores e investidores que precisam entender documentos,
+          limites, áreas e os próximos passos técnicos de um imóvel.
         </p>
       </section>
 
@@ -63,6 +70,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
         <div className="blog-cats" aria-label="Categorias do blog">
           {categories.map((category) => {
             const isActive = category.slug === selectedCategory;
+
             const href = category.slug
               ? `/blog?categoria=${encodeURIComponent(category.slug)}`
               : "/blog";
@@ -87,7 +95,8 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
                 <div
                   className="blog-full-img"
                   style={{
-                    backgroundColor: fallbackColors[index % fallbackColors.length],
+                    backgroundColor:
+                      fallbackColors[index % fallbackColors.length],
                   }}
                 >
                   {post.coverImage ? (
@@ -103,6 +112,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
                       {getInitials(post.categoryLabel || post.title)}
                     </span>
                   )}
+
                   {post.categoryLabel ? (
                     <span className="tag">{post.categoryLabel}</span>
                   ) : null}
@@ -110,7 +120,9 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
 
                 <div className="blog-full-body">
                   <h2>{post.title}</h2>
+
                   <p>{post.description}</p>
+
                   <Link className="read-more" href={`/blog/${post.slug}`}>
                     Ler artigo
                   </Link>

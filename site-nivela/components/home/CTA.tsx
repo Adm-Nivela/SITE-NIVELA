@@ -1,26 +1,25 @@
 import Link from "next/link";
 
-import { whatsappHref } from "@/lib/whatsapp";
+import WhatsAppLink from "../WhatsAppLink";
 
 export default function CTA() {
   return (
     <section className="cta-band">
       <h2>
-        Tem um imóvel e precisa de <em>certeza técnica?</em> Fale com a Nivela.
+        Precisa regularizar, conferir ou entender melhor seu imóvel?{" "}
+        <em>Fale com a Nivela.</em>
       </h2>
 
       <div className="cta-btns">
-        <a
-          href={whatsappHref}
-          className="btn-whatsapp"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          WhatsApp
-        </a>
+           <WhatsAppLink
+                  className="btn-whatsapp"
+                  location="inicial"
+                >
+                  Falar pelo WhatsApp
+                </WhatsAppLink>
 
         <Link href="/contato" className="btn-gold">
-          Avaliação Técnica
+          Solicitar Diagnóstico Técnico
         </Link>
       </div>
     </section>

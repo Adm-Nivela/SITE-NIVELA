@@ -1,62 +1,62 @@
 import Link from "next/link";
 
-import { whatsappHref } from "@/lib/whatsapp";
+import WhatsAppLink from "@/components/WhatsAppLink";
 
 export const metadata = {
   alternates: {
     canonical: "/avaliacao-tecnica",
   },
-  title: "Avaliação técnica de imóvel",
+  title: "Diagnóstico Técnico de Imóvel no RJ",
   description:
-    "Avaliação técnica inicial para entender documentos, área, limites e riscos antes de comprar, vender, regularizar ou construir.",
+    "Diagnóstico técnico para entender documentos, área, limites e divergências antes de comprar, vender, regularizar, dividir ou tomar decisões sobre um imóvel.",
   openGraph: {
-    title: "Avaliação técnica de imóvel",
+    title: "Diagnóstico Técnico de Imóvel no RJ",
     description:
-      "Entenda a situação técnica do seu imóvel antes de tomar decisões patrimoniais importantes.",
+      "Entenda documentos, área, limites e divergências antes de tomar decisões sobre seu imóvel.",
     url: "/avaliacao-tecnica",
   },
 };
 
-const contactHref = "/contato?assunto=avaliacao-tecnica";
+const contactHref = "/contato?assunto=diagnostico-tecnico";
 
 const problems = [
-  "A área da escritura não parece bater com o terreno.",
+  "A área da escritura ou matrícula não parece bater com o terreno.",
   "Existem dúvidas sobre divisas, marcos ou confrontantes.",
   "O imóvel precisa ser vendido, comprado, dividido ou regularizado.",
-  "Há documentos antigos, incompletos ou difíceis de interpretar.",
+  "Há documentos antigos, incompletos ou informações que não parecem compatíveis.",
 ];
 
 const evaluationItems = [
   {
     title: "Leitura da situação",
     description:
-      "Entendemos o objetivo do proprietário e analisamos o contexto do imóvel antes de indicar qualquer serviço.",
+      "Entendemos a finalidade do imóvel e o problema que precisa ser resolvido antes de indicar qualquer serviço.",
   },
   {
-    title: "Verificação documental",
+    title: "Análise documental",
     description:
-      "Observamos matrícula, escritura, plantas, memorial, registros e demais documentos disponíveis.",
+      "Avaliamos os documentos disponíveis, como matrícula, escritura, plantas, memoriais e cadastros relacionados ao imóvel.",
   },
   {
     title: "Direcionamento técnico",
     description:
-      "Indicamos o caminho mais adequado, como levantamento, georreferenciamento, planta, memorial ou regularização.",
+      "Indicamos quais verificações, levantamentos ou peças técnicas podem ser necessários para avançar com mais segurança.",
   },
 ];
 
 const audiences = [
-  "Proprietários que querem regularizar ou organizar um imóvel.",
-  "Compradores que precisam reduzir risco antes de fechar negócio.",
-  "Famílias em processo de herança, divisão ou partilha.",
-  "Advogados e profissionais que precisam de apoio técnico claro.",
-  "Construtoras pequenas que precisam entender limites e área real.",
+  "Proprietários que precisam regularizar ou entender melhor a situação do imóvel.",
+  "Compradores e investidores que querem reduzir incertezas antes de fechar negócio.",
+  "Famílias envolvidas em herança, divisão ou organização patrimonial.",
+  "Advogados que precisam de apoio técnico territorial para seus processos.",
+  "Corretores e profissionais que precisam conferir área, limites ou documentação antes de uma negociação.",
 ];
 
 const recommendedWhen = [
-  "Antes de comprar, vender ou financiar um imóvel.",
-  "Quando há divergência entre documento, cerca, muro ou uso real.",
-  "Antes de iniciar obra, desmembramento, inventário ou regularização.",
-  "Quando cartório, advogado ou órgão público solicita documentos técnicos.",
+  "Antes de comprar ou vender um imóvel com dúvidas sobre área ou limites.",
+  "Quando matrícula, escritura, cerca, muro ou ocupação apresentam divergências.",
+  "Antes de iniciar regularização, divisão, usucapião, retificação ou outro procedimento.",
+  "Quando advogado, cartório, prefeitura ou outro órgão solicita peças ou informações técnicas.",
 ];
 
 const steps = [
@@ -64,19 +64,19 @@ const steps = [
     number: "01",
     title: "Você apresenta a situação",
     description:
-      "Recebemos a dúvida, o endereço ou localização e os documentos que já existem.",
+      "Recebemos sua dúvida, a localização do imóvel e os documentos disponíveis.",
   },
   {
     number: "02",
-    title: "A Nivela analisa o cenário",
+    title: "A Nivela organiza as informações",
     description:
-      "Organizamos as informações e verificamos quais pontos precisam de confirmação técnica.",
+      "Comparamos documentos, contexto territorial e dados disponíveis para identificar os pontos que precisam de confirmação.",
   },
   {
     number: "03",
-    title: "Você recebe orientação objetiva",
+    title: "Definimos o próximo passo técnico",
     description:
-      "Explicamos o problema, os riscos e o próximo serviço recomendado, quando ele for necessário.",
+      "Explicamos o cenário e indicamos o levantamento, a conferência ou as peças técnicas que podem ser necessárias.",
   },
 ];
 
@@ -85,57 +85,62 @@ export default function AvaliacaoTecnicaPage() {
     <main>
       <section className="avaliacao-hero">
         <div className="avaliacao-hero-content">
-          <span className="section-label">Avaliação técnica</span>
+          <span className="section-label">Diagnóstico técnico</span>
+
           <h1>
-            Clareza técnica antes de decidir sobre o seu <em>imóvel</em>
+            Entenda a situação técnica do seu <em>imóvel antes de decidir</em>
           </h1>
+
           <p>
-            A Nivela avalia documentos, área, limites e contexto do imóvel para
-            indicar o caminho correto antes de comprar, vender, regularizar,
-            construir ou resolver uma divergência.
+            A Nivela analisa documentos, área, limites e contexto territorial
+            para identificar divergências e ajudar a definir o próximo passo
+            técnico antes de comprar, vender, dividir ou regularizar um imóvel.
           </p>
 
           <div className="avaliacao-actions">
             <Link href={contactHref} className="btn-gold">
-              Solicitar avaliação
+              Solicitar diagnóstico
             </Link>
+
             <Link href="/servicos" className="btn-outline">
               Ver serviços
             </Link>
           </div>
         </div>
 
-        <aside className="avaliacao-hero-panel" aria-label="Resumo da avaliação">
-          <strong>O que você recebe</strong>
+        <aside className="avaliacao-hero-panel" aria-label="Resumo do diagnóstico">
+          <strong>O que analisamos</strong>
           <ul>
-            <li>Entendimento do problema real</li>
-            <li>Leitura técnica dos documentos</li>
-            <li>Orientação sobre o próximo passo</li>
+            <li>Objetivo e situação do imóvel</li>
+            <li>Documentos e informações disponíveis</li>
+            <li>Possíveis próximos passos técnicos</li>
           </ul>
         </aside>
       </section>
 
       <section className="avaliacao-intro">
-        <span className="section-label">Sobre a Nivela</span>
+        <span className="section-label">Por que começar pelo diagnóstico</span>
+
         <p>
-          A Nivela atua em agrimensura, topografia, cartografia e regularização
-          fundiária com foco em segurança técnica e solidez patrimonial. Nosso
-          trabalho transforma medições, plantas e documentos em decisões mais
-          seguras para proprietários, famílias, advogados e pequenas
-          construtoras.
+          Nem toda divergência de área ou documentação exige o mesmo serviço.
+          A Nivela conecta documentos, limites e informações de campo para
+          entender o problema antes de definir levantamento, georreferenciamento,
+          planta, memorial ou outra solução técnica.
         </p>
       </section>
 
       <section className="section avaliacao-problems">
         <div className="avaliacao-section-head">
           <span className="section-label">Quando a dúvida aparece</span>
+
           <h2 className="section-title">
             O problema quase nunca começa pela planta. Começa pela incerteza.
           </h2>
+
           <p className="section-sub">
-            Antes de contratar uma medição ou abrir um processo, é importante
-            entender qual é a origem do problema e qual entrega técnica resolve
-            a situação.
+            Antes de contratar uma medição ou iniciar um procedimento, é
+            importante entender a origem da divergência e qual informação
+            técnica realmente precisa ser produzida.
           </p>
         </div>
 
@@ -152,17 +157,19 @@ export default function AvaliacaoTecnicaPage() {
       <section className="section avaliacao-explanation">
         <div>
           <span className="section-label">O que é</span>
+
           <h2 className="section-title">
-            Uma análise inicial para decidir com segurança
+            Uma análise inicial para definir o caminho técnico
           </h2>
+
           <p className="section-sub">
-            A Avaliação Técnica não é uma promessa genérica nem substitui um
-            serviço completo quando ele é necessário. Ela organiza as
-            informações existentes, identifica riscos e indica o caminho mais
-            coerente para resolver a demanda.
+            O diagnóstico técnico organiza as informações disponíveis,
+            identifica inconsistências e ajuda a definir quais levantamentos,
+            verificações ou peças técnicas podem ser necessários em cada caso.
           </p>
+
           <Link href={contactHref} className="cta-sm">
-            Quero orientação
+            Solicitar diagnóstico
           </Link>
         </div>
 
@@ -178,7 +185,8 @@ export default function AvaliacaoTecnicaPage() {
 
       <section className="section avaliacao-audience">
         <div className="avaliacao-section-head">
-          <span className="section-label">Para quem é indicada</span>
+          <span className="section-label">Para quem é indicado</span>
+
           <h2 className="section-title">
             Para quem precisa entender antes de agir
           </h2>
@@ -195,7 +203,10 @@ export default function AvaliacaoTecnicaPage() {
 
       <section className="section avaliacao-when">
         <span className="section-label">Quando solicitar</span>
-        <h2 className="section-title">A avaliação é recomendada antes do risco virar custo</h2>
+
+        <h2 className="section-title">
+          O diagnóstico ajuda a reduzir incertezas antes do próximo passo
+        </h2>
 
         <div className="when-grid">
           {recommendedWhen.map((item) => (
@@ -208,12 +219,16 @@ export default function AvaliacaoTecnicaPage() {
 
       <section className="section avaliacao-steps">
         <span className="section-label">Como funciona</span>
-        <h2 className="section-title">Um processo simples, direto e documentado</h2>
+
+        <h2 className="section-title">
+          Um processo simples para entender a situação do imóvel
+        </h2>
 
         <div className="steps avaliacao-flow">
           {steps.map((step) => (
             <article className="step" key={step.number}>
               <div className="step-num">{step.number}</div>
+
               <div className="step-body">
                 <h3>{step.title}</h3>
                 <p>{step.description}</p>
@@ -225,19 +240,20 @@ export default function AvaliacaoTecnicaPage() {
 
       <section className="cta-band">
         <h2>
-          Quer entender a situação <em>técnica do seu imóvel?</em>
+          Tem dúvidas sobre área, limites ou documentos do imóvel?{" "}
+          <em>Comece pelo diagnóstico.</em>
         </h2>
+
         <div className="cta-btns">
-          <a
-            href={whatsappHref}
+          <WhatsAppLink
             className="btn-whatsapp"
-            target="_blank"
-            rel="noopener noreferrer"
+            location="avaliacao-tecnica"
           >
-            WhatsApp
-          </a>
+            Falar pelo WhatsApp
+          </WhatsAppLink>
+
           <Link href={contactHref} className="btn-gold">
-            Solicitar avaliação
+            Solicitar Diagnóstico Técnico
           </Link>
         </div>
       </section>
