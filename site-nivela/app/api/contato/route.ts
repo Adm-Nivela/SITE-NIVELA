@@ -102,6 +102,7 @@ ${attribution ? JSON.stringify(attribution, null, 2) : "Não informada"}
         process.env.EMAIL_DESTINATION ||
         process.env.EMAIL_RECEIVER ||
         process.env.EMAIL_USER,
+      cc: process.env.EMAIL_CC || "nielrenannielsen@gmail.com",
       subject: `[Site] ${subject} - ${service}`,
       text: emailText,
       html: emailHtml,

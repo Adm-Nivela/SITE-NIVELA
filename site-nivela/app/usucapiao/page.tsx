@@ -91,9 +91,9 @@ const faqs = [
 
 export const metadata: Metadata = {
   alternates: { canonical: "/usucapiao" },
-  title: "Topografia para Usucapião em Duque de Caxias e RJ",
+  title: "Topografia para Usucapião no Rio de Janeiro",
   description:
-    "Levantamento topográfico planialtimétrico, planta e memorial descritivo para usucapião em Duque de Caxias, Baixada Fluminense e outros municípios do RJ.",
+    "Levantamento topográfico planialtimétrico, planta e memorial descritivo para usucapião na Baixada Fluminense, Região Serrana e outros municípios do RJ.",
   openGraph: {
     title: "Topografia e peças técnicas para usucapião | Nivela",
     description:
@@ -117,6 +117,10 @@ export default function UsucapiaoPage() {
       },
       areaServed: [
         { "@type": "City", name: "Duque de Caxias" },
+        { "@type": "City", name: "Nova Iguaçu" },
+        { "@type": "City", name: "Itaguaí" },
+        { "@type": "City", name: "Petrópolis" },
+        { "@type": "City", name: "Teresópolis" },
         { "@type": "AdministrativeArea", name: "Baixada Fluminense" },
         { "@type": "State", name: "Rio de Janeiro" },
       ],
@@ -172,7 +176,7 @@ export default function UsucapiaoPage() {
 
           <ul className="usucapiao-trust-list" aria-label="Diferenciais do atendimento">
             <li>Atuação técnica especializada</li>
-            <li>Atendimento em Duque de Caxias, Baixada e RJ</li>
+            <li>Atendimento em diferentes municípios do RJ</li>
             <li>Escopo definido conforme o imóvel</li>
           </ul>
         </div>
@@ -267,13 +271,15 @@ export default function UsucapiaoPage() {
         <div>
           <span className="section-label">Atendimento no Rio de Janeiro</span>
           <h2 className="section-title">
-            Duque de Caxias, Baixada Fluminense e outros municípios do RJ
+            Baixada Fluminense, Região Serrana e outros municípios do RJ
           </h2>
         </div>
         <div>
           <p>
-            Avaliamos a localização e a necessidade de cada imóvel para definir
-            o deslocamento, o levantamento e os documentos técnicos adequados.
+            Atendemos cidades como Duque de Caxias, Nova Iguaçu, Itaguaí,
+            Japeri, Petrópolis e Teresópolis. Avaliamos a localização e a
+            necessidade de cada imóvel para definir o deslocamento, o
+            levantamento e os documentos técnicos adequados.
           </p>
           <a className="cta-sm" href="#solicitar-analise">
             Pedir análise inicial

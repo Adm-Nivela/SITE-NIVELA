@@ -136,7 +136,7 @@
 
 .usucapiao-form label {
   color: var(--text-mid);
-  font-size: 0.76rem;
+  font-size: 0.875rem;
   font-weight: 600;
 }
 
@@ -155,7 +155,11 @@
   background: var(--white);
   color: var(--text-dark);
   padding: 0.7rem 0.8rem;
-  font-size: 0.88rem;
+  font-size: 1rem;
+}
+
+#solicitar-analise {
+  scroll-margin-top: 7rem;
 }
 
 .usucapiao-form input:focus,
@@ -189,7 +193,7 @@
 .usucapiao-form-note {
   margin-top: 0.8rem;
   color: var(--text-muted);
-  font-size: 0.72rem;
+  font-size: 0.78rem;
   line-height: 1.5;
   text-align: center;
 }
@@ -502,7 +506,7 @@
 
 @media (max-width: 640px) {
   .usucapiao-page {
-    padding-bottom: 64px;
+    padding-bottom: calc(64px + env(safe-area-inset-bottom));
   }
 
   .usucapiao-hero {
@@ -511,7 +515,7 @@
   }
 
   .usucapiao-hero h1 {
-    font-size: 2.35rem;
+    font-size: clamp(2rem, 10.5vw, 2.35rem);
   }
 
   .usucapiao-hero-lead {
@@ -572,7 +576,7 @@
     display: block;
     background: var(--petrol);
     box-shadow: 0 -8px 28px rgba(0, 0, 0, 0.22);
-    padding: 0.65rem 1rem;
+    padding: 0.65rem 1rem calc(0.65rem + env(safe-area-inset-bottom));
   }
 
   .usucapiao-mobile-cta a {
@@ -586,6 +590,14 @@
     font-weight: 700;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+  }
+
+  .usucapiao-deliverable p,
+  .usucapiao-process-grid p,
+  .usucapiao-scope-note p,
+  .usucapiao-faq-list details p,
+  .usucapiao-area p {
+    font-size: 1rem;
   }
 }
 
