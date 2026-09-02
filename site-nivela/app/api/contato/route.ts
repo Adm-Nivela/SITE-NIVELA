@@ -24,6 +24,7 @@ export async function POST(request: Request) {
       service,
       municipality,
       message,
+      attribution,
     } = await request.json();
 
     if (
@@ -61,7 +62,21 @@ Município do imóvel: ${municipality}
 
 Mensagem:
 ${message}
+
+Origem:
+${attribution ? JSON.stringify(attribution, null, 2) : "Não informada"}
     `.trim();
+
+    const safeAttribution =
+      attribution && typeof attribution === "object"
+        ? Object.entries(attribution)
+            .slice(0, 12)
+            .map(
+              ([key, value]) =>
+                `<li><strong>${escapeHtml(String(key))}:</strong> ${escapeHtml(String(value).slice(0, 500))}</li>`,
+            )
+            .join("")
+        : "";
 
     const emailHtml = `
       <div style="font-family: sans-serif; font-size: 16px; line-height: 1.6;">
@@ -75,6 +90,8 @@ ${message}
 
         <p><strong>Mensagem:</strong></p>
         <p>${escapeHtml(message).replace(/\n/g, "<br>")}</p>
+
+        ${safeAttribution ? `<p><strong>Origem:</strong></p><ul>${safeAttribution}</ul>` : ""}
       </div>
     `;
 

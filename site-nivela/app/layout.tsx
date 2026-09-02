@@ -11,6 +11,7 @@ import "@/styles/services.css";
 import "@/styles/blog.css";
 import "@/styles/contact.css";
 import "@/styles/avaliacao-tecnica.css";
+import "@/styles/usucapiao.css";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -79,6 +80,7 @@ export default function RootLayout({
       <body>
 
         <div className="site-wrapper">
+          <StructuredData />
           <Header />
 
           {children}

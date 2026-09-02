@@ -1,16 +1,18 @@
 "use client";
 
-import { whatsappHref } from "@/lib/whatsapp";
+import { getWhatsAppHref } from "@/lib/whatsapp";
 
 type WhatsAppLinkProps = {
   className?: string;
   location: string;
+  message?: string;
   children: React.ReactNode;
 };
 
 export default function WhatsAppLink({
   className,
   location,
+  message,
   children,
 }: WhatsAppLinkProps) {
   function handleClick() {
@@ -23,7 +25,7 @@ export default function WhatsAppLink({
 
   return (
     <a
-      href={whatsappHref}
+      href={getWhatsAppHref(message)}
       className={className}
       target="_blank"
       rel="noopener noreferrer"

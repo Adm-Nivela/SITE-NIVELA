@@ -19,6 +19,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${siteUrl}/avaliacao-tecnica`,
     },
     {
+      url: `${siteUrl}/usucapiao`,
+    },
+    {
       url: `${siteUrl}/blog`,
     },
     {

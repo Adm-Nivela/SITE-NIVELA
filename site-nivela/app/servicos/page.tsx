@@ -120,10 +120,16 @@ export default function ServicosPage() {
               </div>
 
               <Link
-                href={`/contato?servico=${encodeURIComponent(service.title)}`}
+                href={
+                  service.id === "usucapiao-retificacao"
+                    ? "/usucapiao"
+                    : `/contato?servico=${encodeURIComponent(service.title)}`
+                }
                 className="cta-sm"
               >
-                Solicitar análise
+                {service.id === "usucapiao-retificacao"
+                  ? "Ver como atuamos"
+                  : "Solicitar análise"}
               </Link>
             </article>
           ))}
