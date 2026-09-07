@@ -33,8 +33,8 @@ export const metadata: Metadata = {
   applicationName: "Nivela",
 
   icons: {
-    icon: "/brand/nivela-symbol-light.png",
-    apple: "/brand/nivela-symbol-light.png",
+    icon: "/brand/nivela-symbol-blue.png",
+    apple: "/brand/nivela-symbol-blue.png",
   },
 
   authors: [
