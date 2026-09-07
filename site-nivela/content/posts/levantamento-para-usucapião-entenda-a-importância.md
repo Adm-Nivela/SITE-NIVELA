@@ -2,7 +2,7 @@
 title: "Levantamento para Usucapião: Entenda a Importância"
 slug: levantamento-para-usucapiao
 date: 2026-09-03
-category: acompanhamento-de-obra-e-pericia-tecnica
+category: regularizacao-fundiaria
 description: Entenda como o levantamento e o memorial descritivo ajudam a
   caracterizar o imóvel e reduzir inconsistências na documentação da usucapião.
 coverImage: /uploads/1001051039.png
@@ -14,9 +14,7 @@ O levantamento para usucapião é importante porque permite representar tecnicam
 
 Usucapião não envolve apenas comprovar o tempo de posse
 
-A usucapião é uma forma de aquisição da propriedade ou de outros direitos reais quando preenchidos os requisitos legais correspondentes. Por isso, a análise não se limita à história da posse.
- Também é necessário identificar qual é exatamente o imóvel objeto do pedido.
- É nesse ponto que a informação técnica ganha importância.
+Usucapião é uma forma de aquisição da propriedade ou de outros direitos reais quando preenchidos os requisitos legais correspondentes. Por isso, a análise não se limita à história da posse. Também é necessário identificar qual é exatamente o imóvel objeto do pedido. É nesse ponto que a informação técnica ganha importância.
 
 Imagine uma situação em que o ocupante conhece os limites do terreno pela utilização cotidiana: uma cerca, um muro, um caminho ou uma divisa antiga. Porém, quando essa ocupação é comparada com a matrícula, plantas antigas ou imóveis vizinhos, aparecem diferenças de área, posição ou confrontação.
 
@@ -39,12 +37,11 @@ O resultado não é apenas um desenho.
 
 Essa distinção é importante porque uma planta pode parecer simples visualmente, mas sua confiabilidade depende da forma como os dados foram obtidos, conferidos e relacionados ao imóvel.
 
-## Qual é a função do memorial descritivo na usucapião?
+## Qual é a função do memorial descritivo no usucapião?
 
-O memorial descritivo complementa a representação gráfica do imóvel.
- Enquanto a planta permite visualizar a configuração da área, o memorial descreve tecnicamente seus limites e características, conforme o levantamento realizado.
+O memorial descritivo complementa a representação gráfica do imóvel. Enquanto a planta permite visualizar a configuração da área, o memorial descreve tecnicamente seus limites e características, conforme o levantamento realizado.
 
-Na usucapião extrajudicial, a Lei nº 6.015/1973 prevê expressamente a apresentação de planta e memorial descritivo assinados por profissional legalmente habilitado, acompanhados da prova de anotação de responsabilidade técnica no respectivo conselho profissional.
+No usucapião extrajudicial, a Lei nº 6.015/1973 prevê expressamente a apresentação de planta e memorial descritivo assinados por profissional legalmente habilitado, acompanhados da prova de anotação de responsabilidade técnica no respectivo conselho profissional.
 
 Isso demonstra que a informação territorial não é um elemento meramente ilustrativo do procedimento.
  Ela integra a documentação utilizada para individualizar o imóvel.
@@ -54,7 +51,7 @@ Isso demonstra que a informação territorial não é um elemento meramente ilus
 Uma das principais dificuldades em processos envolvendo imóveis é encontrar informações diferentes entre documentos e situação física.
 
 Por exemplo:
- **Documento:** área registrada de 500 m². 
+**Documento:** área registrada de 500 m². 
 **Situação encontrada:** ocupação com configuração diferente da descrição existente.
 
 Essa diferença não significa automaticamente que exista um problema jurídico ou que a usucapião seja inviável.
@@ -71,10 +68,8 @@ A partir daí, advogado, proprietário e demais profissionais envolvidos podem a
 
 O levantamento realizado antes da elaboração da documentação permite identificar inconsistências que poderiam aparecer posteriormente.
 
-1. **Conferência da área**
-   : A área efetivamente levantada pode ser comparada com as informações documentais disponíveis.
-2. **Identificação dos limites**
-   : As divisas físicas encontradas no local podem ser analisadas em conjunto com os documentos e informações fornecidos.
+1. **Conferência da área**: A área efetivamente levantada pode ser comparada com as informações documentais disponíveis.
+2. **Identificação dos limites**: As divisas físicas encontradas no local podem ser analisadas em conjunto com os documentos e informações fornecidos.
 3. **Verificação das confrontações**: A identificação dos imóveis confrontantes é relevante para a correta descrição da área e para a documentação do procedimento.
 4. **Organização das informações:** Os dados obtidos em campo podem ser estruturados para subsidiar a elaboração da planta e do memorial descritivo.
 
@@ -82,12 +77,12 @@ O objetivo não é presumir que toda divergência representa uma irregularidade.
 
 É justamente o contrário: identificar tecnicamente a diferença antes que ela seja tratada como fato jurídico sem a devida análise.
 
-## Como funciona a preparação técnica para uma usucapião?
+## Como funciona a preparação técnica para um usucapião?
 
 O trabalho pode ser organizado em etapas:
 
 * **Análise dos documentos disponíveis:** Primeiro, é importante reunir os documentos relacionados ao imóvel e à posse. Entre eles podem estar matrícula, plantas existentes, documentos de aquisição ou cessão, informações cadastrais e outros elementos relevantes para o caso.
-* **Levantamento do imóvel:** Com a documentação analisada, realiza-se o levantamento necessário para representar a situação física do imóvel.
+* **Levantamento do imóvel:** Com a documentação analisada, realiza-se o levantamento topográfico planialtimétrico necessário para representar a situação física do imóvel.
 * **Processamento e conferência dos dados:** Os dados obtidos são organizados e submetidos aos controles técnicos pertinentes ao trabalho.
 * **Elaboração da planta e do memorial descritivo:** Com as informações consolidadas, são produzidos os documentos técnicos necessários à finalidade contratada.
 * **Responsabilidade técnica:** Quando exigida, a documentação deve estar acompanhada da respectiva responsabilidade técnica do profissional habilitado. Na usucapião extrajudicial, a própria Lei de Registros Públicos estabelece essa exigência para a planta e o memorial descritivo.
@@ -150,11 +145,11 @@ Também é importante separar as responsabilidades: o profissional responsável 
 
 ## Como a Nivela atua em usucapião?
 
-Na usucapião, a Nivela atua na etapa técnica de levantamento do imóvel e elaboração do memorial descritivo, transformando a situação física encontrada em informação territorial documentada.
+Na usucapião, a Nivela atua desde a  etapa técnica de levantamento topográfico do imóvel até a elaboração da planta e  do memorial descritivo, transformando a situação física encontrada em informação territorial documentada.
 
 O trabalho parte da análise das informações disponíveis e do levantamento necessário para caracterizar tecnicamente a área, buscando reduzir divergências entre a realidade do imóvel e a documentação produzida.
 
-A atuação segue o posicionamento técnico da empresa: validar as medições, manter rastreabilidade das informações e utilizar referências e normas compatíveis com a finalidade do levantamento. A carta de serviços da Nivela inclui especificamente usucapião — levantamento + memorial descritivo.
+A atuação segue o posicionamento técnico da empresa: validar as medições, manter rastreabilidade das informações e utilizar referências e normas compatíveis com a finalidade do levantamento. A carta de serviços da Nivela inclui especificamente usucapião — levantamento + elaboração de peças técnicas.
 
 O objetivo é fornecer ao advogado e aos demais envolvidos uma base técnica consistente para a etapa jurídica e registral do caso, sem substituir a análise jurídica ou a decisão do órgão competente.
 
@@ -162,25 +157,23 @@ O objetivo é fornecer ao advogado e aos demais envolvidos uma base técnica con
 
 O levantamento e a elaboração da documentação técnica devem ser realizados por profissional legalmente habilitado para a atividade. Na usucapião extrajudicial, a Lei nº 6.015/1973 determina que a planta e o memorial descritivo sejam assinados por profissional legalmente habilitado, com prova da anotação de responsabilidade técnica no respectivo conselho profissional.
 
-## Precisa fazer levantamento topográfico para toda usucapião?
+## Precisa fazer levantamento topográfico para todo usucapião?
 
-A necessidade e a forma da documentação técnica dependem das características do imóvel e do procedimento. Na usucapião extrajudicial, a legislação prevê planta e memorial descritivo, mas existem situações específicas previstas nas normas. Por isso, não é adequado presumir que todos os casos tenham exatamente as mesmas exigências. A documentação deve ser analisada conforme o imóvel e o procedimento escolhido.
+A necessidade e a forma da documentação técnica dependem das características do imóvel e do procedimento. No usucapião extrajudicial, a legislação prevê planta e memorial descritivo, mas existem situações específicas previstas nas normas. Por isso, não é adequado presumir que todos os casos tenham exatamente as mesmas exigências. A documentação deve ser analisada conforme o imóvel e o procedimento escolhido.
 
 ## O memorial descritivo sozinho é suficiente?
 
-Não. O memorial descritivo integra a documentação técnica, mas sua função está relacionada à representação e descrição do imóvel no contexto do procedimento. Na usucapião extrajudicial, a legislação prevê conjuntamente planta e memorial descritivo, além de outros documentos. A documentação jurídica e registral também precisa atender às exigências aplicáveis ao caso.
+Não. O memorial descritivo integra a documentação técnica, mas sua função está relacionada à representação e descrição do imóvel no contexto do procedimento. No usucapião extrajudicial, a legislação prevê conjuntamente planta e memorial descritivo, além de outros documentos. A documentação jurídica e registral também precisa atender às exigências aplicáveis ao caso.
 
 ## O que fazer quando a área medida é diferente da matrícula?
 
 A diferença deve ser identificada e analisada, não simplesmente corrigida por meio de um documento técnico sem compreender sua origem. É necessário comparar a medição realizada com a documentação disponível e verificar os limites físicos e registrais. Dependendo do caso, outras medidas técnicas ou jurídicas podem ser necessárias. O levantamento serve justamente para fornecer uma representação objetiva da situação encontrada.
 
-## A usucapião pode ser feita diretamente no cartório?
+## O usucapião pode ser feita diretamente no cartório?
 
 A legislação admite o reconhecimento extrajudicial da usucapião, processado perante o Registro de Imóveis competente, sem prejuízo da via judicial. O procedimento exige representação por advogado e documentação específica, incluindo ata notarial, planta e memorial descritivo, entre outros documentos previstos na legislação. A análise do caso concreto é necessária para definir se a via extrajudicial é adequada.                                         
 
-   
-
-  Antes de iniciar a documentação de uma usucapião, é importante saber se a representação técnica do imóvel corresponde à realidade encontrada no local.
+  Antes de iniciar a documentação de um usucapião, é importante saber se a representação técnica do imóvel corresponde à realidade encontrada no local.
 
 Se você já possui matrícula, planta, documentos de posse ou outros registros do imóvel, esses materiais podem ser utilizados como ponto de partida para uma avaliação técnica inicial.
 
