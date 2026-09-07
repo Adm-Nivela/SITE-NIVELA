@@ -2,7 +2,7 @@
 title: "Levantamento para Usucapião: Entenda a Importância"
 slug: levantamento-para-usucapiao
 date: 2026-09-03
-category: regularizacao-fundiaria
+category: regularizacao-fundiaria-e-retificacao-de-area
 description: Entenda como o levantamento e o memorial descritivo ajudam a
   caracterizar o imóvel e reduzir inconsistências na documentação da usucapião.
 coverImage: /uploads/1001051039.png
