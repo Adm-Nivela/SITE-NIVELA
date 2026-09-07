@@ -1,5 +1,5 @@
 ---
-title: "O perigo invisível do georreferenciamento: por que aceitar apenas um
+title: "O perigo invisível dos dados topográficos: por que aceitar apenas um
   arquivo .txt pode travar um imóvel por anos"
 slug: o-perigo-invisivel-georreferenciamento
 date: 2026-07-22
