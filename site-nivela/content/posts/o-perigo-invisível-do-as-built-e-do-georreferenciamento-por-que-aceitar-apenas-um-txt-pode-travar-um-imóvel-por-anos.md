@@ -3,7 +3,7 @@ title: "O perigo invisível dos dados topográficos: por que aceitar apenas um
   arquivo .txt pode travar um imóvel por anos"
 slug: o-perigo-invisivel-georreferenciamento
 date: 2026-07-22
-category: georreferenciamento-rural-incra-sigef
+category: due-diligence-e-auditoria-territorial
 description: Entenda por que um levantamento técnico incompleto pode comprometer
   registros imobiliários, gerar retrabalho e criar riscos jurídicos e
   patrimoniais em projetos de georreferenciamento.
