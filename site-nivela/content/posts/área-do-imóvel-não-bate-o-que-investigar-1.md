@@ -1,7 +1,7 @@
 ---
 title: "Área do imóvel não bate: o que investigar?"
 slug: area-imovel
-date: 2026-10-19
+date: 2026-10-14
 category: regularizacao-fundiaria-e-retificacao-de-area
 description: Entenda o que investigar, quais documentos reunir e como avaliar o
   encaminhamento técnico adequado.
